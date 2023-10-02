@@ -34,27 +34,27 @@ export default function Main() {
                     <div className="icons-block flex mt-5">
                         <ul data-aos="fade-up" data-aos-duration="1500" className="icons-list">
                             <li>
-                                <a href="/">
+                                <a href="https://github.com/ngworks1909">
                                     <AiFillGithub className="social-icons" />
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="https://www.linkedin.com/in/nithin-kumar-reddy-bb7b13253/">
                                     <FaLinkedinIn className="social-icons" />
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="https://www.instagram.com/nithin_1909/?hl=en">
                                     <AiFillInstagram className="social-icons" />
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="https://leetcode.com/Nithin_1909/">
                                     <TbBrandLeetcode className="social-icons" />
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="https://auth.geeksforgeeks.org/user/nithinkanduru1908/practice">
                                     <SiGeeksforgeeks className="social-icons" />
                                 </a>
                             </li>
