@@ -5,6 +5,7 @@ import { RxExternalLink } from "react-icons/rx";
 import { AiOutlineGithub } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import '../css/WorkCard.css'
+import spotify from '../assets/spotify.png'
 
 const WorkCard = () => {
   const reversedData = [
@@ -34,17 +35,18 @@ const WorkCard = () => {
     },
     {
         id : 10,
-        img : image,
-        title : "Lorem ipsum dolor sit",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempore unde hic laboriosam iusto eos",
-        link : "/",
-        git : "/"
+        img : spotify,
+        title : "Spotify-Clone",
+        desc : "Spotify offers 82 songs where a user can play songs according to their choice",
+        link : "https://ngworks-spotify.netlify.app",
+        git : "https://github.com/ngworks1909/spotify"
     },
   ].reverse();
 
   return (
     <>
-      {reversedData.map((data) => {
+    <div className="total-works">
+    {reversedData.map((data) => {
         return (
           <div data-aos="zoom-in" key={data.id} className="workcard1">
             <POPUP className="img-content workcard2">
@@ -78,6 +80,8 @@ const WorkCard = () => {
           </div>
         );
       })}
+
+    </div>
     </>
   );
 };

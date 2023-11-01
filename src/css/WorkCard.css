@@ -9,6 +9,13 @@
 .workcard2{
     position: relative;
 }
+.total-works{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
 .workcard3{
     /* h-[280px] w-[380px] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto  */
     height: 280px;
